@@ -8,13 +8,9 @@ logger("aloitetaan ohjelma")
 
 x = int(input("luku 1: "))
 y = int(input("luku 2: "))
-<<<<<<< HEAD
 print(f"{x} + {y} = {summa(x, y)}")
 print(f"{x} + {y} = {erotus(x, y)}")
-=======
-print(f"{x} + {y} = {summa(x, y)}")
-print(f"{x} - {y} = {erotus(x, y)}")
->>>>>>> main
+print(f"{x} * {y} = {tulo(x, y)}")
 
 logger("lopetetaan")
 print("goodbye!")
